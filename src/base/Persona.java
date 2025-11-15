@@ -1,3 +1,5 @@
+package base;
+
 public class Persona {
     // Ejemplos modificadores de acceso
     private String nombre;
