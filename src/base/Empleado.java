@@ -3,7 +3,7 @@ package base;
 public class Empleado extends Persona {
     private String puesto;
 
-    public Empleado(String nombre, int edad, String direccion, String pais){
+    public Empleado(String nombre, int edad, String direccion, String pais, String puesto){
         super(nombre, edad, direccion, pais);
         this.puesto = puesto;
     }
