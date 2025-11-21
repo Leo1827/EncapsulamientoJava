@@ -11,5 +11,7 @@ public class Main {
          persona.mostrarInfo();
          empleado.mostrarInfo();
          cliente.mostrarCliente();
+         // acceder a un parametro publico
+        System.out.println("Pais: " + persona.getPais());
     }
 }
