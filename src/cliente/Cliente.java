@@ -10,7 +10,7 @@ public class Cliente extends Persona {
         super(nombre, edad, direccion, pais);
         this.numeroCliente = numeroCliente;
     }
-
+    
     public void mostrarCliente() {
         System.out.println("Numero de cliente: " + numeroCliente);
         mostrarEdad();
