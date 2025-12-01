@@ -1,17 +1,13 @@
-import base.Empleado;
-import base.Persona;
-import cliente.Cliente;
+import base.Proveedor;
 
 public class Main {
     public static void main(String[] Args){
-         Persona persona = new Persona("Juan", 37,"Calle tornado","Colombia" );
-         Persona empleado = new Empleado("Mileer", 33,"Calle 7", "Argentina", "Desarrollador");
-         Cliente cliente = new Cliente("Mile", 22,"Calle 12", "Colombia", "0001");
+        Proveedor proveedor = new Proveedor(1, "Daniel");
 
-         persona.mostrarInfo();
-         empleado.mostrarInfo();
-         cliente.mostrarCliente();
-         // acceder a un parametro publico
-        System.out.println("Pais: " + persona.getPais());
+        proveedor.getId();
+        proveedor.getName();
+
+        System.out.println("El nombre del proveedor es: " + proveedor.getName());
+        System.out.println("El id del proveedor es: " + proveedor.getId());
     }
 }
