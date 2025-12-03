@@ -16,6 +16,7 @@ public class Alumno {
         this.apellido = apellido;
     }
 
+    // metodos controlados getters y setters, para poder leer/ver y modificar
     public int getId(){
         return id;
     }
